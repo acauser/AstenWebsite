@@ -1,0 +1,55 @@
+﻿body {
+    width: 87.5%;
+    margin-left: auto;
+    margin-right: auto;
+    font-family: et-bembo, Palatino,'Palatino Linotype', 'Palatino LT STD', 'Book Antiqua', Georgia, 'Times New Roman', Times, serif;
+    background-color: #fffff8;
+    color: #111;
+    max-width: 600px;
+}
+
+h1 {
+    font-weight: 400;
+    margin-top: 4rem;
+    margin-bottom: 1.5rem;
+    font-size: 3.2rem;
+    line-height: 1;
+}
+
+h2 {
+    font-style: italic;
+    font-weight: 400;
+    margin-top: 1.7rem;
+    margin-bottom: 0;
+    font-size: 1.5rem;
+    line-height: 1;
+}
+
+p {
+    width: 85%;
+}
+
+a:link {
+    color: inherit;
+}
+
+
+footer {
+    width: 90%;
+}
+
+/*Font Awesome icon classes*/
+
+.fa {
+    position: relative;
+}
+
+    .fa:before {
+        font-family: FontAwesome;
+        font-weight: normal;
+        text-decoration: inherit;
+        padding-right: 0.5em;
+        font-size: 30px;
+        color: #000000;
+        top: 10px;
+    }
